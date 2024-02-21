@@ -451,8 +451,6 @@ pub static ref T: std::collections::HashMap<&'static str, &'static str> =
         ("Resolution", "解析度"),
         ("No transfers in progress", "沒有正在進行的傳輸"),
         ("Set one-time password length", "設定一次性密碼的長度"),
-        ("install_cert_tip", "安裝 RustDesk 憑證"),
-        ("confirm_install_cert_tip", "這是 RustDesk 的測試證書，這是可以信任的。 這個證書會被用來在需要的時候信任和安裝 RustDesk 驅動。"),
         ("RDP Settings", "RDP 設定"),
         ("Sort by", "排序方式"),
         ("New Connection", "新連線"),
@@ -586,7 +584,7 @@ pub static ref T: std::collections::HashMap<&'static str, &'static str> =
         ("enter-2fa-title", "二步驟驗證"),
         ("Email verification code must be 6 characters.", "Email 驗證碼必須是 6 個字元。"),
         ("2FA code must be 6 digits.", "二步驟驗證碼必須是 6 位數字。"),
-        ("Multiple active user sessions found", "發現多個使用者工作階段"),
-        ("Please select the user you want to connect to", "請選擇您想要連接的使用者"),
+        ("Multiple Windows sessions found", ""),
+        ("Please select the session you want to connect to", ""),
     ].iter().cloned().collect();
 }

@@ -451,8 +451,6 @@ pub static ref T: std::collections::HashMap<&'static str, &'static str> =
         ("Resolution", "Rozlišení"),
         ("No transfers in progress", "Žádné probíhající přenosy"),
         ("Set one-time password length", "Nastavení délky jednorázového hesla"),
-        ("install_cert_tip", "Instalace certifikátu RustDesk"),
-        ("confirm_install_cert_tip", "Jedná se o testovací certifikát RustDesk, kterému lze důvěřovat. Certifikát bude v případě potřeby použit k důvěryhodnosti a instalaci ovladačů RustDesk."),
         ("RDP Settings", "Nastavení RDP"),
         ("Sort by", "Seřadit podle"),
         ("New Connection", "Nové připojení"),
@@ -586,7 +584,7 @@ pub static ref T: std::collections::HashMap<&'static str, &'static str> =
         ("enter-2fa-title", "Dvoufaktorová autentizace"),
         ("Email verification code must be 6 characters.", "E-mailový ověřovací kód musí mít 6 znaků."),
         ("2FA code must be 6 digits.", "Kód 2FA musí mít 6 číslic."),
-        ("Multiple active user sessions found", "Bylo nalezeno několik aktivních uživatelských relací"),
-        ("Please select the user you want to connect to", "Vyberte prosím uživatele, ke kterému se chcete připojit"),
+        ("Multiple Windows sessions found", ""),
+        ("Please select the session you want to connect to", ""),
     ].iter().cloned().collect();
 }
